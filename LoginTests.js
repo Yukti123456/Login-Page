@@ -11,7 +11,7 @@ fixture('Login Tests')
 test('Successful Login', async (t) => {
   await t
     .maximizeWindow()
-    .typeText(nameInput, 'mr_vishesh') // Enter your username
-    .typeText(passwordInput, 'vishesh@123') // Enter your password
+    .typeText(nameInput, 'yuktisahu_021') // Enter your username
+    .typeText(passwordInput, 'yukti@123') // Enter your password
     .click(loginButton)
 });
